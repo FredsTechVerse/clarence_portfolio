@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <article id="contact" className="w-full bg-slate-100 rounded-t-lg">
        <section className="section_hidden w-full px-10 py-16">
-        <SectionHeading subTitle="Know more" title="Video" />
-         <iframe className="aspect-video w-full " src="https://www.youtube.com/embed/k5rMfDL1Mcs?si=rkywoKHDsFP8Uzns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-         <section className="grid-lg my-5">
+        <SectionHeading subTitle="Know more" title="Resources" />
+         {/* <iframe className="aspect-video w-full " src="https://www.youtube.com/embed/k5rMfDL1Mcs?si=rkywoKHDsFP8Uzns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+         <section className="grid grid-cols-2 place-items-center my-10">
            <a
             href={CVAllLanguages}
             download="CVAllLanguages"
