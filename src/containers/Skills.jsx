@@ -12,7 +12,7 @@ const Skills = () => {
           <EducationCard
             title="Bachelor's Degree in Computer Science"
             institution="Dedan Kimathi University"
-            date="2019 - 2024"
+            date="2020 - 2024"
           />
           <EducationCard
             title="Secondary School Education"
