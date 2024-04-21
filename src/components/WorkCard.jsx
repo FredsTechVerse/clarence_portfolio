@@ -20,8 +20,8 @@ const WorkCard = ({ image, name, description, link, status }) => {
           {description}
         </p>
         <section className=" flex items-center justify-center gap-1 ">
-          <TechTag text="kicad" />
-          <TechTag text="solid works" />
+          <TechTag text="react" />
+          <TechTag text="tailwindcss" />
         </section>
       </figcaption>
     </section>
